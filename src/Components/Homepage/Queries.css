@@ -1,0 +1,292 @@
+/* Responsive Design @media (max-width: 54rem) {
+  html {
+    font-size: 52%;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-img-box,
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .hero-img-box img {
+    width: 100%;
+  }
+
+  .success-story {
+    justify-content: center;
+  }
+
+  .testomonial-gallery-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .courses-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .cta {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+    row-gap: 4.8rem;
+  }
+} */
+
+@media (max-width: 42em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 1.6rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .main-nav {
+    background-color: #ffffffea;
+    height: 100vh;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2.6rem;
+  }
+
+  .section-hero {
+    max-width: 130rem;
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+    padding: 0 1.8rem;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* //// Chat GPT ///// */
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .heading-primary span {
+    font-size: 4.8rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .hero-img-box {
+    margin-top: 3.2rem;
+  }
+
+  .success-story {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4.8rem;
+  }
+
+  /* .hero-btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+  } */
+
+  .hero-img-box,
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .hero-img-box img {
+    width: 95%;
+  }
+
+  .success-story {
+    margin-top: 3.2rem;
+  }
+
+  .courses-content {
+    padding: 1.8rem 2.8rem 2.8rem 2.8rem;
+  }
+
+  .course-title {
+    font-size: 2rem;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    row-gap: 4.8rem;
+    padding: 1rem;
+  }
+
+  .course-list {
+    gap: 1rem;
+  }
+
+  .course-title {
+    margin-bottom: 2.6rem;
+  }
+
+  .banking-course {
+    width: 50%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+  }
+
+  .testomonial-gallery-container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .testimonials-container {
+    padding: 3.2rem;
+  }
+
+  .gallery {
+    padding: 0;
+  }
+
+  .section-cta {
+    padding: 9.6rem 2rem;
+    background-color: #fcfaf9;
+  }
+
+  .cta {
+    padding: 3.2rem;
+  }
+
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .call-now-container {
+    margin-top: 3.2rem;
+  }
+
+  .footer {
+    padding: 6.8rem 2rem 2rem 2rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6.2rem;
+  }
+
+  .logo-col {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+
+  .logo-link {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+  }
+}

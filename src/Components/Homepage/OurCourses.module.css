@@ -1,0 +1,85 @@
+.section-courses {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.courses {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.courses:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.course-img {
+  width: 100%;
+}
+
+.courses-content {
+  padding: 2.8rem 4.8rem 4.8rem 4.8rem;
+}
+
+.course-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.course-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.course-item {
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.more-courses {
+  padding-top: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.right-icon {
+  color: #c1272d;
+}
+
+@media (max-width: 42em) {
+  .courses-content {
+    padding: 1.8rem 2.8rem 2.8rem 2.8rem;
+  }
+
+  .course-title {
+    font-size: 2rem;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    row-gap: 4.8rem;
+    padding: 1rem;
+  }
+
+  .course-list {
+    gap: 1rem;
+  }
+
+  .course-title {
+    margin-bottom: 2.6rem;
+  }
+
+  .banking-course {
+    width: 50%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+  }
+}
