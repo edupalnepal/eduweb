@@ -1,0 +1,23 @@
+# Robots.txt for Edupalnepal
+# https://edupalnepal.com.np
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://edupalnepal.com.np/sitemap.xml
+
+# Disallow development/build files
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /src/
+
+# Allow search engines to crawl all pages
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
