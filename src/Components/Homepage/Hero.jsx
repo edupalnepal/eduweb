@@ -14,7 +14,7 @@ export default function Hero() {
       <div className={styles["hero"]}>
         <div className={styles["hero-text-box"]}>
           <h1 className="heading-primary" id="hero-heading">
-            <span>Dhangadhi&apos;s</span> Best Institute for Loksewa, Korean Language &amp; Banking Classes
+            <span>Dhangadhi&apos;s</span> Best Institute for Loksewa, Korean Language &amp; Banking Preparation
           </h1>
           <p className={styles["hero-description"]}>
             <strong>Edupalnepal</strong> is Sudurpaschim&apos;s top-rated institute for 
